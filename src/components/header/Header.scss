@@ -1,0 +1,119 @@
+.Header {
+	height: 100vh;
+	position: relative;
+	margin: 0;
+}
+.Header-welcome {
+	position: absolute;
+	top: 25vh;
+	left: 7vw;
+	z-index: +1;
+}
+
+.Header-typing {
+	position: absolute;
+	bottom: 3vh;
+	right: 2vw;
+}
+.Header-video {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-height: 100%;
+	min-width: 100%;
+	z-index: -1;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.Header-welcome {
+		top: 10vh;
+		left: 7vw;
+	}
+
+	.Header-typing {
+		bottom: 8vh;
+		left: 7vw;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+	@media (orientation: landscape) {
+		.Header-typing {
+			visibility: hidden;
+		}
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+	.Header-welcome {
+		top: 25vh;
+		right: 30px;
+	}
+
+	.Header-typing {
+		bottom: 8vh;
+		left: 7vw;
+	}
+	@media (orientation: landscape) {
+		.Header-welcome {
+			top: 13vh;
+		}
+		.Header-typing {
+			bottom: 2vh;
+		}
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.Header-welcome {
+		top: 40vh;
+		left: 7vw;
+	}
+
+	.Header-typing {
+		bottom: 8vh;
+		left: 32vw;
+	}
+	@media (orientation: landscape) {
+		.Header-welcome {
+			top: 10vh;
+		}
+		.Header-typing {
+			bottom: 8vh;
+		}
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.Header-welcome {
+		top: 25vh;
+		left: 7vw;
+	}
+
+	.Header-typing {
+		bottom: 3vh;
+		left: 7vw;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.Header-welcome {
+		top: 25vh;
+		left: 22vw;
+	}
+
+	.Header-typing {
+		bottom: 8vh;
+		left: 40vw;
+	}
+}
+@media only screen and (min-width: 1330px) {
+	.Header-typing {
+		left: 45vw;
+	}
+}

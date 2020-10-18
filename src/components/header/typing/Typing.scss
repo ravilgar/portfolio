@@ -1,0 +1,73 @@
+@import "../../../design-tokens/scss-variables.scss";
+
+.Typing {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+}
+
+.Typing-msg-typed {
+	color: $primaryWhite;
+}
+.Typing-msg-typing {
+	color: rgb(150, 150, 145);
+}
+
+.Typing-cursor {
+	/* line-height: 17px; */
+	margin-left: 5px;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	width: 3px;
+	padding: 0;
+	margin-bottom: 0;
+}
+@keyframes blink {
+	0% {
+		/* background-color: rgb(255, 253, 253); */
+	}
+	40% {
+		background-color: $primaryWhite;
+	}
+	60% {
+		background-color: $primaryWhite;
+	}
+	100% {
+		/* background-color: rgb(255, 255, 255); */
+	}
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.Typing-cursor {
+		height: 20px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.Typing-cursor {
+		height: 30px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.Typing-cursor {
+		height: 30px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.Typing-cursor {
+		height: 30px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.Typing-cursor {
+		height: 30px;
+	}
+}

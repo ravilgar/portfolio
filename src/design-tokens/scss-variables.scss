@@ -1,0 +1,22 @@
+// Добавить в файлы путь
+// @import "../../design-tokens/scss-variables.scss";
+
+// Иконки
+@import "~material-design-icons/iconfont/material-icons.css";
+
+// цвета
+$redHeader: #a02323;
+$primaryWhite: #fff;
+$background: lightgray;
+$primaryblack: #212529;
+$footerWhite: #c2c6ca;
+
+// Шрифты
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+$cursive: "Bad Script", cursive;
+@import url("https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@1,445&display=swap");
+$cuprum: "Cuprum", sans-serif;
+
+// Высота шрифтов
+$pHeight: 17px;
+$headerHeight: 42px;

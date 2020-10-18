@@ -1,0 +1,64 @@
+@import "../../../design-tokens/scss-variables.scss";
+.About {
+}
+.About-header {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: $cursive;
+	font-size: $headerHeight;
+}
+
+.About-info {
+	background-color: $background;
+	padding: 30px 30px;
+	height: 100%;
+}
+.About-info-table {
+	box-shadow: 5px 5px 3px #a3a3a3;
+	font-family: $cuprum;
+	font-size: 28px;
+	color: $primaryblack;
+	border: 2px solid $primaryblack;
+	tr {
+		background-color: #f2f2f2;
+	}
+	th {
+		padding-top: 13px;
+		padding-bottom: 10px;
+
+		padding-right: 30px;
+		text-align: left;
+	}
+	th:first-child {
+		text-align: center;
+		padding-left: 15px;
+	}
+	.About-info-table-second {
+		padding-right: 60px;
+	}
+}
+// * Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.About-info-table {
+		font-size: 15px;
+	}
+	.About-info-table-second {
+		padding-right: 20px;
+	}
+}
+@media only screen and (max-width: 250px) {
+	.About-info-table {
+		font-size: 10px;
+		th {
+			padding-top: 13px;
+			padding-bottom: 10px;
+
+			padding-right: 10px;
+			text-align: left;
+		}
+		.About-info-table-second {
+			padding-right: 10px;
+		}
+	}
+}

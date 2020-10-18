@@ -1,0 +1,8 @@
+@import "../../../design-tokens/scss-variables.scss";
+.Card {
+	width: 100%;
+
+	p {
+		font-size: $pHeight;
+	}
+}

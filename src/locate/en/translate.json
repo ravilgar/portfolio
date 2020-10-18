@@ -1,0 +1,43 @@
+{
+	"translations": {
+		"navbar": {
+			"home": "Home",
+			"about_me": "About Me",
+			"portfolio": "Portfolio"
+		},
+		"paragraph": "Introduction",
+		"header": {
+			"welcome_to_my_website": "Welcome to my website!",
+			"typing": {
+				"name": "Ravil Garipov",
+				"frontend_developer": "Frontend Developer"
+			}
+		},
+		"about_me": {
+			"here_i_am": "Well, here I am!",
+			"about_me": "About Me",
+			"ravil_garipov": "Ravil Garipov",
+			"frontend_developer": "Frontend Developer",
+			"naberezhnye_chelny": "Russia, Naberezhnye Chelny",
+			"phone": "+7 917 *** ** 10",
+			"why_frontend": "Why frontend?",
+			"i_develop_websites": "It's a joy to see that the front end of websites I'm working on having all the necessary functionality. It's a pleasure to try to make any project well done, to be sure that the created web app will look great to any user. And to see the result! I love the pace at which new things appear in the frontend - the improvement of the Javascript language, the birth and development of various frameworks, the intersection with mobile development, and so on. Isn't it cool? That's why I chose the frontend as something in which I'm growing."
+		},
+		"portfolio": {
+			"work_experience": "Portfolio",
+			"i_work": "Today the portfolio contains only examples of pet projects. Later I'm going to add real projects here, or a name of the company in which I work as a frontend developer. (These days I work as a design engineer).",
+			"projects": {
+				"title": "Portfolio Website",
+				"description": "The project was made on React with the localization on i18n, libraries like react-bootstrap,  W3, Font Awesome, Google Material UI Icons and Google Fonts, Sass and etc.",
+				"src": "https://github.com/ravilgar/portfolio",
+				"id": "982342kh4i2y49824hh34f3324434t"
+			},
+			"view_code": "View code"
+		},
+		"footer": {
+			"all_rights_reserved": "Ravilgar. All Rights Reserved.",
+			"have_a_project": "Have a project you’d like to talk about?",
+			"contact_me": "Contact me by e-mail:"
+		}
+	}
+}

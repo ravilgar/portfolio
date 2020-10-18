@@ -1,0 +1,35 @@
+@import "../../design-tokens/scss-variables.scss";
+.Footer {
+	// background-color: grey;
+	// background-color: #212529;
+	background-color: #212529a4;
+
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.Footer-contactMe {
+	padding-bottom: 10px;
+	p {
+		// color: $primaryWhite;
+		color: $footerWhite;
+		
+		text-shadow: 2px 2px $primaryblack;
+		width: 90%;
+		text-align: center;
+	}
+}
+.Footer-contactMe-Mail {
+	:hover {
+		cursor: pointer;
+	}
+	.material-icons.mail {
+		color: $redHeader;
+		// color: $primaryblack;
+		color: $footerWhite;
+		font-size: 32px;
+		text-shadow: 4px 4px $primaryblack;
+		// background-color: $primaryWhite;
+		// background-color: $primaryblack;
+	}
+}

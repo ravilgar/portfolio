@@ -1,0 +1,10 @@
+@import "../../../design-tokens/scss-variables.scss";
+.Copyright {
+	// color: #9a9da0;
+	color: $footerWhite;
+	// color: $primaryWhite;
+	
+	text-shadow: 2px 2px $primaryblack;
+	width: 98%;
+	text-align: right;
+}

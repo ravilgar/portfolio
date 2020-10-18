@@ -1,0 +1,24 @@
+@import "../../../design-tokens/scss-variables.scss";
+.Jumbotron {
+	padding: 40px 30px;
+	widows: 100%;
+	background-color: $background;
+	h2 {
+		padding-bottom: 20px;
+	}
+	a:link,
+	a:visited {
+		margin-top: 20px;
+		background-color: $redHeader;
+		color: $primaryWhite;
+		padding: 14px 25px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+	a:hover,
+	a:active {
+		background-color: red;
+	}
+}

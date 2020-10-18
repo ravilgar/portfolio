@@ -1,0 +1,91 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./design-tokens/scss-variables.scss";
+
+.App {
+	position: relative;
+	margin: 0;
+}
+
+.App-onload {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background-color: #343a40;
+	.App-spinner {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		margin-top: -60px;
+		margin-left: -60px;
+		border: 26px solid #f3f3f33d;
+		border-radius: 50%;
+		border-top: 26px solid rgb(255, 255, 255);
+		border-bottom: 26px solid rgb(255, 255, 255);
+		width: 120px;
+		height: 120px;
+		-webkit-animation: spin 2s linear infinite;
+		animation: spin 2s linear infinite;
+	}
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.App-navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.active {
+	color: #9a9da0 !important;
+}
+
+.active:hover {
+	color: #c5c7c9 !important;
+}
+.App-Link-active {
+	color: $primaryWhite !important;
+}
+.form-control:focus {
+	border-color: $primaryWhite !important;
+}
+
+.Icon-moving {
+	position: relative;
+	animation-name: iconActive;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+}
+@keyframes iconActive {
+	0% {
+		top: 0px;
+	}
+	25% {
+		top: -3px;
+	}
+	50% {
+		top: -5px;
+	}
+	75% {
+		top: -3px;
+	}
+	100% {
+		top: -0px;
+	}
+}

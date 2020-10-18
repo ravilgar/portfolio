@@ -1,0 +1,70 @@
+@import "../../../design-tokens/scss-variables.scss";
+.Welcome {
+	color: $primaryWhite;
+	padding: 50px;
+	background-color: rgba(52, 58, 64, 0.9);
+	border-radius: 10px;
+}
+.Welcome-msg {
+	font-size: 50px;
+	font-family: $cursive;
+	text-shadow: 1px 1px 0 rgba(7, 4, 31, 0.315);
+	text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.Welcome {
+		padding: 30px;
+		width: 90%;
+		min-width: 90vw;
+	}
+	.Welcome-msg {
+		font-size: 18px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+	.Welcome {
+		padding: 30px;
+		width: 90%;
+		min-width: 90vw;
+	}
+	.Welcome-msg {
+		font-size: 25px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.Welcome {
+		padding: 30px;
+		width: 490px;
+	}
+	.Welcome-msg {
+		font-size: 30px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.Welcome {
+		padding: 30px;
+		width: 590px;
+	}
+	.Welcome-msg {
+		font-size: 38px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.Welcome {
+		padding: 30px;
+		width: 790px;
+	}
+	.Welcome-msg {
+		font-size: 50px;
+	}
+}

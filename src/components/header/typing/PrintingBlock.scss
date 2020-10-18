@@ -1,0 +1,65 @@
+.PrintingBlock {
+	height: 280px;
+	width: 680px;
+	background-color: rgb(18, 46, 63);
+	border-style: solid;
+	border-color: rgb(52, 58, 64);
+	border-width: 3px;
+	border-radius: 9px;
+	padding: 30px;
+}
+
+.PrintingBlock-msg {
+	font-size: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.PrintingBlock {
+		height: 150px;
+		width: 90%;
+		min-width: 90vw;
+	}
+	.PrintingBlock-msg {
+		font-size: 15px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+	.PrintingBlock {
+		height: 180px;
+		width: 90%;
+		min-width: 90vw;
+	}
+	.PrintingBlock-msg {
+		font-size: 20px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.PrintingBlock {
+		height: 170px;
+		width: 400px;
+	}
+	.PrintingBlock-msg {
+		font-size: 25px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.PrintingBlock {
+		height: 230px;
+		width: 480px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.PrintingBlock {
+		height: 280px;
+		width: 680px;
+	}
+}

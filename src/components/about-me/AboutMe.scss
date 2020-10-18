@@ -1,0 +1,19 @@
+@import "../../design-tokens/scss-variables.scss";
+
+.AboutMe {
+	padding-top: 90px;
+	padding-bottom: 0px;
+	background-color: #eaeaea;
+}
+.AboutMe-header {
+	text-align: center;
+	font-family: $cursive;
+	font-size: $headerHeight;
+	background-color: $redHeader;
+	color: $primaryWhite;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.AboutMe-row{
+	padding-bottom: 30px;
+}
