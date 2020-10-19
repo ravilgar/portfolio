@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5c3fca02.chunk.css",
-    "main.js": "/portfolio/static/js/main.57e57e3d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.57e57e3d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9dc63119.chunk.css",
+    "main.js": "/portfolio/static/js/main.cf4adafe.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cf4adafe.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.32dc9584.chunk.css": "/portfolio/static/css/2.32dc9584.chunk.css",
-    "static/js/2.018b1291.chunk.js": "/portfolio/static/js/2.018b1291.chunk.js",
-    "static/js/2.018b1291.chunk.js.map": "/portfolio/static/js/2.018b1291.chunk.js.map",
+    "static/js/2.b30af09e.chunk.js": "/portfolio/static/js/2.b30af09e.chunk.js",
+    "static/js/2.b30af09e.chunk.js.map": "/portfolio/static/js/2.b30af09e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.cd62b2070f472ac3e8956827e105f793.js": "/portfolio/precache-manifest.cd62b2070f472ac3e8956827e105f793.js",
+    "precache-manifest.36923c3caf3ef616cfbd6040fa038dde.js": "/portfolio/precache-manifest.36923c3caf3ef616cfbd6040fa038dde.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.32dc9584.chunk.css.map": "/portfolio/static/css/2.32dc9584.chunk.css.map",
-    "static/css/main.5c3fca02.chunk.css.map": "/portfolio/static/css/main.5c3fca02.chunk.css.map",
-    "static/js/2.018b1291.chunk.js.LICENSE.txt": "/portfolio/static/js/2.018b1291.chunk.js.LICENSE.txt",
+    "static/css/main.9dc63119.chunk.css.map": "/portfolio/static/css/main.9dc63119.chunk.css.map",
+    "static/js/2.b30af09e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b30af09e.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portfolio/static/media/MaterialIcons-Regular.e79bfd88.eot",
     "static/media/img1.jpg": "/portfolio/static/media/img1.1b62dd84.jpg",
+    "static/media/Header.scss": "/portfolio/static/media/thunderstorm.2708edd7.jpg",
     "static/media/videoHeader.mp4": "/portfolio/static/media/videoHeader.10e234e4.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.32dc9584.chunk.css",
-    "static/js/2.018b1291.chunk.js",
-    "static/css/main.5c3fca02.chunk.css",
-    "static/js/main.57e57e3d.chunk.js"
+    "static/js/2.b30af09e.chunk.js",
+    "static/css/main.9dc63119.chunk.css",
+    "static/js/main.cf4adafe.chunk.js"
   ]
 }
