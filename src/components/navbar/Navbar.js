@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import useLangState from "../../hooks/useLangState";
 import { useTranslation } from "react-i18next";
 import Navbar from "react-bootstrap/Navbar";
@@ -15,27 +15,21 @@ function MyNavbar({ place }) {
 	const { t, i18n } = useTranslation();
 
 	// Закрыть navbar
-	// const refCollapse = useRef(null);
-	// refCollapse.classList.remove("show");
-	// const [collapsed, setCollapsed] = useState("navbar-toggler");
-	// const collapse = () => {
-	// 	setCollapsed("navbar-toggler collapsed");
-	// };
-	const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+	// кнопка, раскрывающая меню
+	const refToggle = useRef(null);
 
-	const handleNavCollapse = () => {
-		setIsNavCollapsed(!isNavCollapsed);
-		console.log(isNavCollapsed);
+	const collapseNav = () => {
+		//Проверить открыто ли меню
+		if (refToggle.current.className === "navbar-toggler") {
+			// Если открыто, закрыть
+			refToggle.current.click();
+		}
 	};
-
 	return (
 		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
 			<Container>
 				<Navbar.Brand href="#home">ravilgar</Navbar.Brand>
-				<Navbar.Toggle
-					aria-controls="responsive-navbar-nav"
-					aria-expanded={!isNavCollapsed ? true : false}
-				/>
+				<Navbar.Toggle aria-controls="responsive-navbar-nav" ref={refToggle} />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="mr-auto">
 						<Nav.Link
@@ -77,12 +71,22 @@ function MyNavbar({ place }) {
 									as="select"
 									onChange={(e) => {
 										setLang(e.target.value);
-										handleNavCollapse();
+										collapseNav();
 									}}
 									value={i18n.language}
 								>
-									<option value="en">En</option>
-									<option value="ru">Ru</option>
+									<option
+										value="en"
+										disabled={i18n.language === "en" ? true : false}
+									>
+										En
+									</option>
+									<option
+										value="ru"
+										disabled={i18n.language === "ru" ? true : false}
+									>
+										Ru
+									</option>
 								</Form.Control>
 							</Form.Group>
 						</Form>
