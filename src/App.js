@@ -46,8 +46,8 @@ function App() {
 
 	// Спиннер при загрузке
 	const [loading, setLoading] = useState(false);
-	setTimeout(() => setLoading(true), 2000);
-	// setTimeout(() => setLoading(true), 0);
+	// setTimeout(() => setLoading(true), 2000);
+	setTimeout(() => setLoading(true), 0);
 
 	// Закрыть navbar
 	// const refCollapse = useRef(null);
